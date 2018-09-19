@@ -1,0 +1,674 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		041DBB572151E4F0002D47AC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 041DBB562151E4F0002D47AC /* AppDelegate.m */; };
+		041DBB5A2151E4F0002D47AC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 041DBB592151E4F0002D47AC /* ViewController.m */; };
+		041DBB5D2151E4F0002D47AC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 041DBB5B2151E4F0002D47AC /* Main.storyboard */; };
+		041DBB5F2151E4F1002D47AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 041DBB5E2151E4F1002D47AC /* Assets.xcassets */; };
+		041DBB622151E4F1002D47AC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 041DBB602151E4F1002D47AC /* LaunchScreen.storyboard */; };
+		041DBB652151E4F1002D47AC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 041DBB642151E4F1002D47AC /* main.m */; };
+		041DBB9221522016002D47AC /* TagTitleCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 041DBB8F21522015002D47AC /* TagTitleCell.m */; };
+		041DBB9321522016002D47AC /* ScrollMenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = 041DBB9121522015002D47AC /* ScrollMenuView.m */; };
+		730C86BB9398AEA5B9D504DB /* libPods-FFScrollMenuViewTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A88BBF74D5AC1760B740303C /* libPods-FFScrollMenuViewTests.a */; };
+		B10D0826A69B5702CE1B4716 /* libPods-FFScrollMenuView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FA41E0838272323CF53C163F /* libPods-FFScrollMenuView.a */; };
+		CEE3C822540AD88281FF52C3 /* libPods-FFScrollMenuViewUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FCEC09E402531B09E812391 /* libPods-FFScrollMenuViewUITests.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		041DBB6B2151E4F1002D47AC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 041DBB4A2151E4F0002D47AC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 041DBB512151E4F0002D47AC;
+			remoteInfo = FFScrollMenuView;
+		};
+		041DBB762151E4F1002D47AC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 041DBB4A2151E4F0002D47AC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 041DBB512151E4F0002D47AC;
+			remoteInfo = FFScrollMenuView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		041DBB522151E4F0002D47AC /* FFScrollMenuView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FFScrollMenuView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		041DBB552151E4F0002D47AC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		041DBB562151E4F0002D47AC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		041DBB582151E4F0002D47AC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		041DBB592151E4F0002D47AC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		041DBB5C2151E4F0002D47AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		041DBB5E2151E4F1002D47AC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		041DBB612151E4F1002D47AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		041DBB632151E4F1002D47AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		041DBB642151E4F1002D47AC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		041DBB6A2151E4F1002D47AC /* FFScrollMenuViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FFScrollMenuViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		041DBB752151E4F1002D47AC /* FFScrollMenuViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FFScrollMenuViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		041DBB8E21522015002D47AC /* ScrollMenuView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScrollMenuView.h; sourceTree = "<group>"; };
+		041DBB8F21522015002D47AC /* TagTitleCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TagTitleCell.m; sourceTree = "<group>"; };
+		041DBB9021522015002D47AC /* TagTitleCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TagTitleCell.h; sourceTree = "<group>"; };
+		041DBB9121522015002D47AC /* ScrollMenuView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScrollMenuView.m; sourceTree = "<group>"; };
+		2014F74510E6BA939E5206A0 /* Pods-FFScrollMenuViewUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FFScrollMenuViewUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FFScrollMenuViewUITests/Pods-FFScrollMenuViewUITests.release.xcconfig"; sourceTree = "<group>"; };
+		3FCEC09E402531B09E812391 /* libPods-FFScrollMenuViewUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FFScrollMenuViewUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		50A71F2687BC9FE68CF69DA2 /* Pods-FFScrollMenuViewUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FFScrollMenuViewUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FFScrollMenuViewUITests/Pods-FFScrollMenuViewUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		6345AA942BFBEED5E2F21D75 /* Pods-FFScrollMenuViewTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FFScrollMenuViewTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FFScrollMenuViewTests/Pods-FFScrollMenuViewTests.debug.xcconfig"; sourceTree = "<group>"; };
+		805904949EBDADD79FA63DCF /* Pods-FFScrollMenuView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FFScrollMenuView.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FFScrollMenuView/Pods-FFScrollMenuView.debug.xcconfig"; sourceTree = "<group>"; };
+		A88BBF74D5AC1760B740303C /* libPods-FFScrollMenuViewTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FFScrollMenuViewTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C87942CCE0B276148934EA49 /* Pods-FFScrollMenuViewTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FFScrollMenuViewTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FFScrollMenuViewTests/Pods-FFScrollMenuViewTests.release.xcconfig"; sourceTree = "<group>"; };
+		EFC06E0BD73DC74696A2F990 /* Pods-FFScrollMenuView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FFScrollMenuView.release.xcconfig"; path = "Pods/Target Support Files/Pods-FFScrollMenuView/Pods-FFScrollMenuView.release.xcconfig"; sourceTree = "<group>"; };
+		FA41E0838272323CF53C163F /* libPods-FFScrollMenuView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FFScrollMenuView.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		041DBB4F2151E4F0002D47AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B10D0826A69B5702CE1B4716 /* libPods-FFScrollMenuView.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		041DBB672151E4F1002D47AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				730C86BB9398AEA5B9D504DB /* libPods-FFScrollMenuViewTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		041DBB722151E4F1002D47AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEE3C822540AD88281FF52C3 /* libPods-FFScrollMenuViewUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		041DBB492151E4F0002D47AC = {
+			isa = PBXGroup;
+			children = (
+				041DBB542151E4F0002D47AC /* FFScrollMenuView */,
+				041DBB532151E4F0002D47AC /* Products */,
+				CBD20EF4A7E92B5C4E7E5756 /* Pods */,
+				5492AABEAC7E1249A15428AE /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		041DBB532151E4F0002D47AC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				041DBB522151E4F0002D47AC /* FFScrollMenuView.app */,
+				041DBB6A2151E4F1002D47AC /* FFScrollMenuViewTests.xctest */,
+				041DBB752151E4F1002D47AC /* FFScrollMenuViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		041DBB542151E4F0002D47AC /* FFScrollMenuView */ = {
+			isa = PBXGroup;
+			children = (
+				041DBB8D21522015002D47AC /* ScrollMenuView */,
+				041DBB552151E4F0002D47AC /* AppDelegate.h */,
+				041DBB562151E4F0002D47AC /* AppDelegate.m */,
+				041DBB582151E4F0002D47AC /* ViewController.h */,
+				041DBB592151E4F0002D47AC /* ViewController.m */,
+				041DBB5B2151E4F0002D47AC /* Main.storyboard */,
+				041DBB5E2151E4F1002D47AC /* Assets.xcassets */,
+				041DBB602151E4F1002D47AC /* LaunchScreen.storyboard */,
+				041DBB632151E4F1002D47AC /* Info.plist */,
+				041DBB642151E4F1002D47AC /* main.m */,
+			);
+			path = FFScrollMenuView;
+			sourceTree = "<group>";
+		};
+		041DBB8D21522015002D47AC /* ScrollMenuView */ = {
+			isa = PBXGroup;
+			children = (
+				041DBB9021522015002D47AC /* TagTitleCell.h */,
+				041DBB8F21522015002D47AC /* TagTitleCell.m */,
+				041DBB8E21522015002D47AC /* ScrollMenuView.h */,
+				041DBB9121522015002D47AC /* ScrollMenuView.m */,
+			);
+			path = ScrollMenuView;
+			sourceTree = "<group>";
+		};
+		5492AABEAC7E1249A15428AE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FA41E0838272323CF53C163F /* libPods-FFScrollMenuView.a */,
+				A88BBF74D5AC1760B740303C /* libPods-FFScrollMenuViewTests.a */,
+				3FCEC09E402531B09E812391 /* libPods-FFScrollMenuViewUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CBD20EF4A7E92B5C4E7E5756 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				805904949EBDADD79FA63DCF /* Pods-FFScrollMenuView.debug.xcconfig */,
+				EFC06E0BD73DC74696A2F990 /* Pods-FFScrollMenuView.release.xcconfig */,
+				6345AA942BFBEED5E2F21D75 /* Pods-FFScrollMenuViewTests.debug.xcconfig */,
+				C87942CCE0B276148934EA49 /* Pods-FFScrollMenuViewTests.release.xcconfig */,
+				50A71F2687BC9FE68CF69DA2 /* Pods-FFScrollMenuViewUITests.debug.xcconfig */,
+				2014F74510E6BA939E5206A0 /* Pods-FFScrollMenuViewUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		041DBB512151E4F0002D47AC /* FFScrollMenuView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 041DBB7E2151E4F1002D47AC /* Build configuration list for PBXNativeTarget "FFScrollMenuView" */;
+			buildPhases = (
+				519EE4B43433EDC46666A4DD /* [CP] Check Pods Manifest.lock */,
+				041DBB4E2151E4F0002D47AC /* Sources */,
+				041DBB4F2151E4F0002D47AC /* Frameworks */,
+				041DBB502151E4F0002D47AC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FFScrollMenuView;
+			productName = FFScrollMenuView;
+			productReference = 041DBB522151E4F0002D47AC /* FFScrollMenuView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		041DBB692151E4F1002D47AC /* FFScrollMenuViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 041DBB812151E4F1002D47AC /* Build configuration list for PBXNativeTarget "FFScrollMenuViewTests" */;
+			buildPhases = (
+				CAC7E922782852BF4E9F2912 /* [CP] Check Pods Manifest.lock */,
+				041DBB662151E4F1002D47AC /* Sources */,
+				041DBB672151E4F1002D47AC /* Frameworks */,
+				041DBB682151E4F1002D47AC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				041DBB6C2151E4F1002D47AC /* PBXTargetDependency */,
+			);
+			name = FFScrollMenuViewTests;
+			productName = FFScrollMenuViewTests;
+			productReference = 041DBB6A2151E4F1002D47AC /* FFScrollMenuViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		041DBB742151E4F1002D47AC /* FFScrollMenuViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 041DBB842151E4F1002D47AC /* Build configuration list for PBXNativeTarget "FFScrollMenuViewUITests" */;
+			buildPhases = (
+				6E170519ACB4B875441FCB7A /* [CP] Check Pods Manifest.lock */,
+				041DBB712151E4F1002D47AC /* Sources */,
+				041DBB722151E4F1002D47AC /* Frameworks */,
+				041DBB732151E4F1002D47AC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				041DBB772151E4F1002D47AC /* PBXTargetDependency */,
+			);
+			name = FFScrollMenuViewUITests;
+			productName = FFScrollMenuViewUITests;
+			productReference = 041DBB752151E4F1002D47AC /* FFScrollMenuViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		041DBB4A2151E4F0002D47AC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = healifeGroup;
+				TargetAttributes = {
+					041DBB512151E4F0002D47AC = {
+						CreatedOnToolsVersion = 9.4;
+					};
+					041DBB692151E4F1002D47AC = {
+						CreatedOnToolsVersion = 9.4;
+						TestTargetID = 041DBB512151E4F0002D47AC;
+					};
+					041DBB742151E4F1002D47AC = {
+						CreatedOnToolsVersion = 9.4;
+						TestTargetID = 041DBB512151E4F0002D47AC;
+					};
+				};
+			};
+			buildConfigurationList = 041DBB4D2151E4F0002D47AC /* Build configuration list for PBXProject "FFScrollMenuView" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 041DBB492151E4F0002D47AC;
+			productRefGroup = 041DBB532151E4F0002D47AC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				041DBB512151E4F0002D47AC /* FFScrollMenuView */,
+				041DBB692151E4F1002D47AC /* FFScrollMenuViewTests */,
+				041DBB742151E4F1002D47AC /* FFScrollMenuViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		041DBB502151E4F0002D47AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				041DBB622151E4F1002D47AC /* LaunchScreen.storyboard in Resources */,
+				041DBB5F2151E4F1002D47AC /* Assets.xcassets in Resources */,
+				041DBB5D2151E4F0002D47AC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		041DBB682151E4F1002D47AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		041DBB732151E4F1002D47AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		519EE4B43433EDC46666A4DD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FFScrollMenuView-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6E170519ACB4B875441FCB7A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FFScrollMenuViewUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CAC7E922782852BF4E9F2912 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FFScrollMenuViewTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		041DBB4E2151E4F0002D47AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				041DBB5A2151E4F0002D47AC /* ViewController.m in Sources */,
+				041DBB652151E4F1002D47AC /* main.m in Sources */,
+				041DBB9321522016002D47AC /* ScrollMenuView.m in Sources */,
+				041DBB572151E4F0002D47AC /* AppDelegate.m in Sources */,
+				041DBB9221522016002D47AC /* TagTitleCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		041DBB662151E4F1002D47AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		041DBB712151E4F1002D47AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		041DBB6C2151E4F1002D47AC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 041DBB512151E4F0002D47AC /* FFScrollMenuView */;
+			targetProxy = 041DBB6B2151E4F1002D47AC /* PBXContainerItemProxy */;
+		};
+		041DBB772151E4F1002D47AC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 041DBB512151E4F0002D47AC /* FFScrollMenuView */;
+			targetProxy = 041DBB762151E4F1002D47AC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		041DBB5B2151E4F0002D47AC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				041DBB5C2151E4F0002D47AC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		041DBB602151E4F1002D47AC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				041DBB612151E4F1002D47AC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		041DBB7C2151E4F1002D47AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		041DBB7D2151E4F1002D47AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		041DBB7F2151E4F1002D47AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 805904949EBDADD79FA63DCF /* Pods-FFScrollMenuView.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FFScrollMenuView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = healifeGroup.FFScrollMenuView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		041DBB802151E4F1002D47AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EFC06E0BD73DC74696A2F990 /* Pods-FFScrollMenuView.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FFScrollMenuView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = healifeGroup.FFScrollMenuView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		041DBB822151E4F1002D47AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6345AA942BFBEED5E2F21D75 /* Pods-FFScrollMenuViewTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FFScrollMenuViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = healifeGroup.FFScrollMenuViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FFScrollMenuView.app/FFScrollMenuView";
+			};
+			name = Debug;
+		};
+		041DBB832151E4F1002D47AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C87942CCE0B276148934EA49 /* Pods-FFScrollMenuViewTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FFScrollMenuViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = healifeGroup.FFScrollMenuViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FFScrollMenuView.app/FFScrollMenuView";
+			};
+			name = Release;
+		};
+		041DBB852151E4F1002D47AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 50A71F2687BC9FE68CF69DA2 /* Pods-FFScrollMenuViewUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FFScrollMenuViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = healifeGroup.FFScrollMenuViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FFScrollMenuView;
+			};
+			name = Debug;
+		};
+		041DBB862151E4F1002D47AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2014F74510E6BA939E5206A0 /* Pods-FFScrollMenuViewUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FFScrollMenuViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = healifeGroup.FFScrollMenuViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FFScrollMenuView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		041DBB4D2151E4F0002D47AC /* Build configuration list for PBXProject "FFScrollMenuView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				041DBB7C2151E4F1002D47AC /* Debug */,
+				041DBB7D2151E4F1002D47AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		041DBB7E2151E4F1002D47AC /* Build configuration list for PBXNativeTarget "FFScrollMenuView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				041DBB7F2151E4F1002D47AC /* Debug */,
+				041DBB802151E4F1002D47AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		041DBB812151E4F1002D47AC /* Build configuration list for PBXNativeTarget "FFScrollMenuViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				041DBB822151E4F1002D47AC /* Debug */,
+				041DBB832151E4F1002D47AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		041DBB842151E4F1002D47AC /* Build configuration list for PBXNativeTarget "FFScrollMenuViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				041DBB852151E4F1002D47AC /* Debug */,
+				041DBB862151E4F1002D47AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 041DBB4A2151E4F0002D47AC /* Project object */;
+}
